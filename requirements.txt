@@ -1,0 +1,13 @@
+# 依赖
+pip install evalscope[perf] -U
+pip install swanlab
+
+# 本项目使用的环境：
+torch==2.6.0
+torchaudio==2.6.0+cu124
+torchvision==0.21.0+cu124
+vllm==0.8.1
+xformers==0.0.29.post2
+
+
+
