@@ -15,7 +15,7 @@ os.makedirs(quant_path, exist_ok=True)
 # 校准数据集的样本数量
 n_samples = 128
 
-# 准备校准数据集 (保持您原来的在线加载方式)
+# 准备校准数据集 
 print(f"加载 WikiText 数据集，并准备 {n_samples} 个样本进行校准...")
 dataset = load_dataset("wikitext", "wikitext-2-raw-v1", split="train")
 text_samples = [
