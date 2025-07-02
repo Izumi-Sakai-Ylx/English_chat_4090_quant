@@ -14,9 +14,11 @@ python -m vllm.entrypoints.openai.api_server \
 
 ## 2. 测试服务
 在 终端2 中运行以下命令来测试服务：  
-'''
+运行脚本
+```
 python test_int8.py
-'''  
+```
+
 注：这是一个英文语言模型，所以用中文的 case 去测试他没什么意义，我们要用英文的 case 去测试他
 
 ## 3. 观察输出是否正常
