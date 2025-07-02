@@ -17,7 +17,7 @@ python -m vllm.entrypoints.openai.api_server \
 '''
 python test_int8.py
 '''  
-注：这是一个英文模型，所以用中文的 case 去测试他没什么意义，于是我们要用英文的 case 去测试他
+注：这是一个英文模型，所以用中文的 case 去测试他没什么意义，我们要用英文的 case 去测试他
 
 ## 3. 观察输出是否正常
 正常后就可以开始测速
